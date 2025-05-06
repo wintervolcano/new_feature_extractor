@@ -1,0 +1,63 @@
+{
+    "time_phase": {
+        "store": 1,
+        "normalize": 1,
+        "centering": 0,
+        "nbins": 64
+    },
+
+    "freq_phase": {
+        "store": 1,
+        "normalize": 1,
+        "centering": 0,
+        "nbins": 64
+    },
+
+    "intensity": {
+        "store": 1,
+        "normalize": 1,
+        "centering": 0,
+        "nbins": 64,
+
+        "save_mean": 0,
+        "save_std": 0,
+        "save_skew": 0,
+        "save_kurt": 0,
+
+        "gaussian_fit": 0,
+        "double_gauss_fit":0
+
+    },
+
+    "half_or_full": {
+        "half": 0,
+        "full": 1
+    },
+
+    "ffdot": {
+        "store": 1,
+        "normalize": 1,
+        "nbins": 64
+    },
+
+    "dm_curve": {
+        "store": 1,
+        "normalize": 1,
+        "nbins": 64,
+
+        "save_mean": 0,
+        "save_std": 0,
+        "save_skew": 0,
+        "save_kurt": 0
+    },
+
+   
+    "meta_data": {
+        "dm_value": 1,
+        "snr": 1,
+        "period": 1,
+        "pepoch": 1
+
+    }
+
+}
