@@ -3,21 +3,21 @@
         "store": 1,
         "normalize": 1,
         "centering": 0,
-        "nbins": 64
+        "nbins": [null, 64]
     },
 
     "freq_phase": {
         "store": 1,
         "normalize": 1,
         "centering": 0,
-        "nbins": 64
+        "nbins": null
     },
 
     "intensity": {
         "store": 1,
         "normalize": 1,
         "centering": 0,
-        "nbins": 64,
+        "nbins": null,
 
         "save_mean": 0,
         "save_std": 0,
